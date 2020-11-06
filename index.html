@@ -1,226 +1,282 @@
 <!DOCTYPE html>
-<html>
-
-<!-- Source/Inspiration: https://themuellenator.github.io/ --> 
+<html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>My Nguyen</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="style.css" type="text/css"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-  
+
+  <style>
+
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+
+  ul{
+    font: 15px Montserrat, sans-serif;
+    color: white;
+  }
+
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: white; /* Green */
+    color: black;
+  }
+
+  .bg-2 { 
+    background-color: lightgray; /* Dark Blue */
+    color: white;
+  }
+
+  .bg-3 { 
+    background-color: gray; /* White */
+    color: black;
+  }
+
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: white;
+  }
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  </style>
 </head>
-
 <body>
-	<div class="space-container">
-    
-	</div>
 
-  <div class="intro-container">
-    <div class="title-text">
-      <h1>I'm My<h1>
-      <h2><i class="fas fa-laptop-code"></i> a <span class="pro">pro</span>grammer in <i class="fas fa-map-marked-alt"></i> Tampa, FL</h2>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">My Nguyen</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SUMMARY</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">EXPERIENCES</a></li>
+      </ul>
     </div>
   </div>
+</nav>
 
-  
-  <div class="skills-container">
-  <div class="profile">
-      <img src="my.png" alt="my-profile-img" width="200px" height="200px">
-      <h2>hello • xin chào • bonjour • 您们好 </h2>
-	  <p><i class="fas fa-tasks"></i> I am highly organized </p>
-	  <p><i class="fas fa-chart-line"></i> I am results-oriented</p>
-	  <p><i class="fas fa-clock"></i> I manage my time efficiently</p>
-	  <p><i class="fas fa-users"></i> I work effectively with others</p>
-      <p><i class="fas fa-comments"></i> I have strong analytical and communication skills</p>
-	  <p><i class="fas fa-language"></i> I enjoy learning new languages</p>
-     
-	<!--  <ul>
-		
-	  	<li><i class="fas fa-tasks"></i> I am highly organized </li>
-		<li><i class="fas fa-chart-line"></i> I am results-oriented</li>
-		<li><i class="fas fa-clock"></i> I manage my time efficiently</li>
-		<li><i class="fas fa-users"></i> I work effectively with others</li>
-		<li><i class="fas fa-comments"></i> I have strong analytical and communication skills</li>
-		<li><i class="fas fa-language"></i> I enjoy learning new languages</li>
-			
-	  </ul>
-	  -->
-    </div>
-  
-  <hr>
-  <h2>My Skills</h2>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" style="color: black; margin: 10px">
+  <h2 class="margin">Hello, xin chào, bonjour, 您们好!</h2>
+  <img src="my.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <p>My name is My Nguyen (pronounced like 'me' and 'wen', respectively). </p>
+
   <center>
-  <table cellspacing=15px>
-	  <colgroup span="2"></colgroup>
+    
+    <div class="row">
+      <div class="col-sm">
+        
+        <p>I graduated magna cum laude from the University of South Florida (USF) in December 2018 with a Bachelors degree in Computer Engineering while double majoring in Computer Science.</p>
+        <img src="usf.png" class="img-responsive margin" style="width:100px; height:100px" alt="Image">
 
-	  <tr>
-		<td>Java</td>
-		<td><i class="fas fa-battery-half"></i></td>
-		<td>SQL</td>
-		<td><i class="fas fa-battery-half"></td>
-	  </tr>
-	  <tr>
-		<td>Python</td>
-		<td><i class="fas fa-battery-quarter"></td>
-		<td>HTML</td>
-		<td><i class="fas fa-battery-half"> </td>
-	  </tr>
-	  <tr>
-		<td>C++</td>
-		<td><i class="fas fa-battery-quarter"></td>
-		<td>CSS</td>
-		<td><i class="fas fa-battery-half"> </td>
-	  </tr>
-	  <tr>
-		<td>C</td>
-		<td><i class="fas fa-battery-quarter"></td>
-		<td>JS/TS</td>
-		<td><i class="fas fa-battery-quarter"></td>
-	  </tr>
+
+      </div>
+
+      <div class="col-sm">
+        
+        <p>I played an integral role in Women in Computer Science and Engineering (WICSE) at USF where I increased our membership from 70 to over 250 members.</p>
+        <img src="wicse.jpg" class="img-responsive margin" style="width:100px; height:100px" alt="Image">
+
+      </div>
+      <div class="col-sm">
+         <p> I was a Rotary Youth Exchange Ambassador to Belgium between 2014-2015 where I became the Provience of Liege Ambassador and developed resiliency and grit skills.</p>
+         <img src="rye.png" class="img-responsive margin" style="width:100px; height:100px" alt="Image">
+
+      </div>
+      <div class="col-sm">
+        <p> I love traveling and learning new languages and cultures. I speak Vietnamese and English fluenty and have intermediate skills in French. I am an aspiring polygot with high hopes of learning Mandarin Chinese and Arabic.</p>
+        <img src="language.png" class="img-responsive margin" style="width:100px; height:100px" alt="Image">
+
+      </div>
+    </div>
+
+  </center>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" style="color: black">
+  <h2 class="margin">My Skills</h2>
+
+  <center>
+    <table cellspacing=20px>
+    <colgroup span="2"></colgroup>
+
+    <tr>
+    <td>Java</td>
+    <td><i class="fas fa-battery-half"></i></td>
+    <td>SQL</td>
+    <td><i class="fas fa-battery-half"></td>
+    </tr>
+    <tr>
+    <td>Python</td>
+    <td><i class="fas fa-battery-quarter"></td>
+    <td>HTML</td>
+    <td><i class="fas fa-battery-half"> </td>
+    </tr>
+    <tr>
+    <td>C++</td>
+    <td><i class="fas fa-battery-quarter"></td>
+    <td>CSS</td>
+    <td><i class="fas fa-battery-half"> </td>
+    </tr>
+    <tr>
+    <td>C</td>
+    <td><i class="fas fa-battery-quarter"></td>
+    <td>JS/TS</td>
+    <td><i class="fas fa-battery-quarter"></td>
+    </tr>
   </table>
 
-  <table cellspacing=15px>
-	  <colgroup span="2"></colgroup>
+  <table cellspacing=20px>
+    <colgroup span="2"></colgroup>
 
-	  <tr>
-	 
-		<td>TeamCity</td>
-		<td><i class="fa fa-battery-three-quarters"></td>
-		<td>English</td>
-		<td><i class="fa fa-battery-full"></td>
-	  </tr>
-	  <tr>
-		<td>uDeploy</td>
-		<td><i class="fa fa-battery-three-quarters"></td>
-		<td>Vietnamese</td>
-		<td><i class="fa fa-battery-full"></td>
-	  </tr>
-	  <tr>
-		<td>Microsoft SQL Server</td>
-		<td><i class="fa fa-battery-three-quarters"></td>
-		<td>French</td>
-		<td><i class="fa fa-battery-half"></td>
-	  </tr>
-	  <tr>
-		<td>Tectia</td>
-		<td><i class="fa fa-battery-three-quarters"></td>
-		<td>Mandarin</td>
-		<td><i class="fa fa-battery-quarter"></td>
-	  </tr>
+    <tr>
+   
+    <td>TeamCity</td>
+    <td><i class="fa fa-battery-three-quarters"></td>
+    <td>English</td>
+    <td><i class="fa fa-battery-full"></td>
+    </tr>
+    <tr>
+    <td>uDeploy</td>
+    <td><i class="fa fa-battery-three-quarters"></td>
+    <td>Vietnamese</td>
+    <td><i class="fa fa-battery-full"></td>
+    </tr>
+    <tr>
+    <td>Microsoft SQL Server</td>
+    <td><i class="fa fa-battery-three-quarters"></td>
+    <td>French</td>
+    <td><i class="fa fa-battery-half"></td>
+    </tr>
+    <tr>
+    <td>Tectia</td>
+    <td><i class="fa fa-battery-three-quarters"></td>
+    <td>Mandarin</td>
+    <td><i class="fa fa-battery-quarter"></td>
+    </tr>
    </table>
-
-    </div>
-	</center>
-	
-    <hr>
-	<div class="experience-container">
-    <div class="work">
-      <h2>My Work Experiences</h2>
-      <div class="work-row">
-        <img class="citi-img" src="citi.png" alt="citi-logo" >
-
-        <h3>Citi</h3>
-		<p>Tampa, FL • 02/19 - Current</p>
-		<p><strong>Programmer Analyst </strong></p>
-
-		<ul>
-			<li>Create Jira tasks based on business requirements</li>
-			<li>Use Java EE, Spring, and Maven in Eclipse to complete tasks</li>
-			<li>Write store procedures in SQL and bash scripts to improve jobs' performance</li>
-			<li>Link code changes with Jira tasks and do Git commits and pushes to BitBucket</li>
-			<li>Complete continuous integration and testing with TeamCity, uDeploy, Microsoft SQL Server, Workload Control Center, and Tectia</li>
-			<li>Effectively communicate with QA team for regresssion testing</li>
-			<li>Created an onboarding guide in Confluence</li>
-			<li>Automated build and deploy process using Selenium and an internal application</li>
-			<li>Improved batch jobs' performance by 50% decreased in job run-time</li>
-		</ul>
-		
-      </div>
-	  <div class="work-row">
-        <img class="code-img" src="jpmc.png" alt="jpmc-logo">
-
-        <h3>J.P. Morgan Chase & Co.</h3>
-		<p>Tampa, FL • 06/17 - 08/17</p>
-		<p><strong>Technology Analyst Intern</strong></p>
-
-		<ul>
-			<li>Created and validated User Acceptance Test (UAT) test scripts for Portal and Middle Office applications with HP Application Management Lifecycle tool</li>
-			<li>Increased overall test coverage by 50% with Java unit (jUnit) tests written in Notepad++ and Eclipse</li>
-		</ul>
-      </div>
-	  
-	  <div class="work-row">
-        <img class="code-img" src="jabil.png" alt="jabil-logo">
-
-        <h3>Jabil</h3>
-		<p>St. Petersburg, FL • 05/16 - 09/16</p>
-		<p><strong>Project Coordinator Intern</strong></p>
-
-		<ul>
-			
-			<li>Strategic Technology Solutions (STS) Program Management Office</li>
-			<ul>
-				<li>Designed and managed the SharePoint site</li>
-				<li>Successfully delegated ownership of the STS Resource Management Report to a full-time internal resource in Penang, Malaysia</li>
-				<li>Assisted in the Project Shield HyperCare Support with a 90% completion rate</li>
-				<li>Resolved mismatched user IDs with a 90% completion rate</li>
-
-			</ul>
-			
-			<li>SAP Single-Sign On (SSO)</li>
-			<ul>
-				<li>Designed and managed the SharePoint site</li>
-				<li>Completed User Testing Acceptance (UAT) and Validation Protocol</li>
-				<li>Managed the recording, delegation, and resolution of issues by raising SAP Governance, Risk, & Compliance requests</li>
-				<li>Worked with the Communications department to send global messages to users</li>
-			</ul>
-			
-			<li>JGO!</li>
-			<ul>
-				<li>Created, proposed, and managed a team of three interns</li>
-				<li>Developed, tested, and deployed JGO!, a mobile application for the IT Department's seating chart</li>
-				<li>Prepared management documentations and mitigated risks</li>
-			</ul>
-			
-		</ul>
-      </div>
-    <hr>
-	
-	<div class="education-container">
+  </center>
   
-    <div class="education">
-      <h2>My Education</h2>
-      <div class="education-row">
-        <img class="code-img" src="usf.png" alt="usf-logo">
+</div>
 
-        <h3>University of South Florida</h3>
-		<p>Tampa, FL • 12/18</p>
-		<p><strong>Bachelor of Science</strong>: Computer Engineering</p>
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h2 class="margin">My Experiences</h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+     
+      <h3>Programmer Analyst at Citi</h3>
+      <h4>Located in Tampa, Florida since February 2019</h4>
+      <ul style="color:black">
+        <li>Write stored procedures and bash scripts to improve jobs' performances</li>
+        <li>Develop in Eclipse and use Git controls to commit and push my code changes to BitBucket</li>
+        <li>Complete continuous integration and testing with our technology stack</li>
+        <li>Communicate with our QA team for regression testing</li>
+        <li>Improved batch jobs' performance by 50% decreased in job run-time</li>
+      </ul>
+      <p><em>Technologies:</em> Java EE, Spring, Maven, Eclipse, Microsoft SQL Server, TeamCity, uDeploy, bash, SQL, Jira, BitBucket, Workload Control Center, Tectia</p>
 
-		<ul>
-			<li>Double majored in Computer Science</li>
-			<li>Graduated magna cum laude with a 3.78 GPA</li>
-		</ul>
-      </div>
+      <img src="citi.png" class="img-responsive margin" style="width:100%; height: 100%" alt="Image">
+      
+    </div>
+    <div class="col-sm-4"> 
+      
+      <h3>Technology Analyst Intern at J.P. Morgan Chase & Co.</h3>
+      <h4>Located in Tampa, Florida from June to August 2017</h4>
+      <ul style="color:black">
+        <li>Created and validated User Acceptance Test (UAT) test scripts for Portal and Middle Office applications with HP Application Management Lifecycle tool</li>
+        <li>Increased overall test coverage by 50% with Java unit (jUnit) tests written in Notepad++ and Eclipse</li>
+      </ul>
+      <p><em>Technologies:</em> Eclipse, HP AML, Java, jUnit, Notepad++</p>
+      <img src="jpmc1.png" class="img-responsive margin" style="height: 100%"  alt="Image">
     </div>
 
-  </div>
+    <div class="col-sm-4"> 
+      
+      <h3>Project Coordinator Intern at Jabil</h3>
+      <h4>Located in St. Petersburg, Florida from May to September 2016</h4>
 
+      <ul style="color:black">
+      
+      <li>Strategic Technology Solutions (STS) Program Management Office</li>
+      <ul style="color:black">
+        <li>Designed and managed the SharePoint site</li>
+        <li>Successfully delegated ownership of the STS Resource Management Report to a full-time internal resource in Penang, Malaysia</li>
+        <li>Assisted in the Project Shield HyperCare Support with a 90% completion rate</li>
+        <li>Resolved mismatched user IDs with a 90% completion rate</li>
 
-  <div class="bottom-container">
-	<a href="tel:+17278156611"><i class="fas fa-mobile-alt"></i> Cell</a>
-	<a href="mailto:mytanguyen1@gmail.com"><i class="fas fa-inbox"></i> Email</a>
-	<a href="https://linkedin.com/in/mytanguyen"><i class="fab fa-linkedin"></i> LinkedIn</a>
-	<a href="https://github.com/mytanguyen"><i class="fab fa-github-square"></i> GitHub</a>
-	<a href="index.html"><i class="fas fa-user-circle"></i> CV</a>
-	<!--<a href="blog.html"><i class="fas fa-comment-alt"></i> Blog</a>-->
-   <p class="copyright">© 2020 My Nguyen</p>
+      </ul>
+      <p></p>
+      <li>SAP Single-Sign On (SSO)</li>
+      <ul style="color:black">
+        <li>Designed and managed the SharePoint site</li>
+        <li>Completed User Testing Acceptance (UAT) and Validation Protocol</li>
+        <li>Managed the recording, delegation, and resolution of issues by raising SAP Governance, Risk, & Compliance requests</li>
+        <li>Worked with the Communications department to send global messages to users</li>
+      </ul>
+      <p></p>
+      <li>JGO!</li>
+      <ul style="color:black">
+        <li>Created, proposed, and managed a team of three interns</li>
+        <li>Developed, tested, and deployed JGO!, a mobile application for the IT Department's seating chart</li>
+        <li>Prepared management documentations and mitigated risks</li>
+      </ul>
+      
+    </ul>
+      <p><em>Technologies:</em> SharePoint, Microsoft Office, UAT test scripts</p>
+      <img src="jabil1.png" class="img-responsive margin" style="width:100%; height: 100%" alt="Image">
+    </div>
   </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <a href="tel:+17278156611"><i class="fas fa-mobile-alt"></i> Cell</a>
+  <a href="mailto:mytanguyen1@gmail.com"><i class="fas fa-inbox"></i> Email</a>
+  <a href="https://linkedin.com/in/mytanguyen"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="https://github.com/mytanguyen"><i class="fab fa-github-square"></i> GitHub</a>
+  <a href="index.html"><i class="fas fa-user-circle"></i> CV</a>
+  <p>My Nguyen © 2020</p> 
+</footer>
+
 </body>
-
 </html>
